@@ -19,7 +19,24 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fffffba1;
+  color: #fffffb;
   text-decoration: none;
+  opacity: 0.6;
+}
+
+.active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav ul li {
+    padding: 1rem 2rem;
+  }
 }
 /*# sourceMappingURL=Nav.css.map */

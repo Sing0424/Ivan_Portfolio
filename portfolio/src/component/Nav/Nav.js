@@ -6,7 +6,7 @@ export default function Nav() {
         <div>
             <nav>
                 <ul>
-                    <li><a href='#'>Home</a></li>
+                    <li><a className='active' href='#'>Home</a></li>
                     <li><a href='#'>Resume</a></li>
                     <li><a href='#'>Collection</a></li>
                     <li><a href='#'>Contact</a></li>
