@@ -1,0 +1,25 @@
+nav {
+  background-color: #0b1013;
+  width: 100%;
+}
+
+nav ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul li {
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+nav ul li a {
+  color: #fffffba1;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Nav.css.map */

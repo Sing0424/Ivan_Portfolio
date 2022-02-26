@@ -1,0 +1,18 @@
+nav {
+  background-color: #0b1013;
+  width: 100%;
+  ul {
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    li {
+      padding: 1rem;
+      font-size: 1.4rem;
+      a {
+        color: #fffffba1;
+        text-decoration: none;
+      }
+    }
+  }
+}

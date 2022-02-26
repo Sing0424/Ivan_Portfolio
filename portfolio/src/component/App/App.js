@@ -1,8 +1,13 @@
 import Home from "../Home/Home";
+import Nav from "../Nav/Nav";
+import './App.css';
 
 function App() {
   return (
-    <Home />
+    <html>
+      <Nav />
+      <Home />
+    </html>
   )
 }
 
