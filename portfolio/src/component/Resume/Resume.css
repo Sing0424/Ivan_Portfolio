@@ -1,0 +1,22 @@
+.resume {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/Background.svg");
+}
+
+.resume .resumeInner {
+  padding: 4rem;
+  width: 100%;
+  color: #fffffbf5;
+}
+
+.resume .resumeInner .resumeTitle {
+  border-bottom: 2px solid #fffffbf5;
+  width: 30rem;
+}
+
+.resume .resumeInner p {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=Resume.css.map */
