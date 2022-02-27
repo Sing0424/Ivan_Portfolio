@@ -6,19 +6,17 @@ import LinkedIn from '../../images/linkedin_icon.svg';
 
 export default function Home() {
     return (
-        <div>
-            <head>
-                <title>Home | Ivan's portfolio</title>
-            </head>
+        <div className='home'>
+            <title>Home | Ivan's portfolio</title>
             <section className='left'>
-                <div>
+                <div className='title'>
                     <h1>
                         Hi, I am <br/>
                         Ivan Tung
                     </h1>
-                    <div>
-                        <a href='#'><img className='icon github' src={Github} alt='github' /></a>
-                        <a href='#'><img className='icon linkedin' src={LinkedIn} alt='linkedin' /></a>
+                    <div className='icon'>
+                    <a className='github' href='#'><img className='githubicon' src={Github} alt='github' /></a>
+                    <a className='linkedin' href='#'><img className='linkedinicon' src={LinkedIn} alt='linkedin' /></a>
                     </div>
                 </div>
                 <p>

@@ -1,4 +1,4 @@
-div {
+.home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,42 +10,58 @@ div {
           justify-content: space-between;
 }
 
-div section.left {
+.home section.left {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 700px;
           flex: 2 1 700px;
   width: 60%;
-  padding: 60px;
+  padding: 2rem 3rem;
   color: #fffffbf5;
 }
 
-div section.left h1 {
+.home section.left .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home section.left .title .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home section.left h1 {
   font-size: 3rem;
   padding-bottom: 5rem;
 }
 
-div section.left p {
+.home section.left p {
   font-size: 1.5rem;
   padding-bottom: 2rem;
   min-width: 300px;
 }
 
-div section.left a {
-  margin-left: 20px;
-  height: 50px;
-}
-
-div section.left a .github {
+.home section.left .github {
   margin-top: 5px;
 }
 
-div section.right {
+.home section.left .linkedin {
+  margin-left: 2rem;
+}
+
+.home section.right {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 400px;
           flex: 1 1 400px;
 }
 
-div section.right img {
+.home section.right img {
   width: 100%;
   height: auto;
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -54,8 +70,22 @@ div section.right img {
 
 @media screen and (max-width: 1100px) {
   section.right img {
-    width: 10vw;
     padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section.right img {
+    padding: 0rem 5rem;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  section.left h1 {
+    padding-bottom: 2rem !important;
+  }
+  section.left .icon {
+    padding-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=Home.css.map */
