@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="app">
       <Nav />
-      <Routes>
+      <Routes basename="/Ivan_Portfolio">
         <Route path="/Ivan_Portfolio" element={<Home/>} />
         <Route path="/Ivan_Portfolio/Resume" element={<Resume/>} />
         <Route path="/Ivan_Portfolio/Collection" element={<Collection/>} />

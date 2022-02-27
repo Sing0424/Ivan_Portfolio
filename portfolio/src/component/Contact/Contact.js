@@ -3,6 +3,7 @@ import './Contact.css';
 export default function Resume() {
     return (
         <div className="contact">
+        <title>Contact | Ivan's portfolio</title>
             <div className='contactInner'>
                 <h2 className='contactTitle'>My Contact</h2>
                 <p>

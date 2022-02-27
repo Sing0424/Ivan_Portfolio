@@ -3,6 +3,7 @@ import './Resume.css';
 export default function Resume() {
     return (
         <div className="resume">
+        <title>Resume | Ivan's portfolio</title>
             <div className='resumeInner'>
                 <h1 className='resumeTitle'>Introduction</h1>
                 <p>

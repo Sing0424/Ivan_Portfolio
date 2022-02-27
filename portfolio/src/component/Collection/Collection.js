@@ -7,6 +7,7 @@ import AutoWateringSys from '../../images/AutoWateringSystem.png'
 export default function Collection() {
     return (
         <div className="collection">
+        <title>Collection | Ivan's portfolio</title>
             <div className='projectBox'>
                 <a href='https://github.com/Sing0424/VR_Project_Mindmap_RoomEscape' target="_blank" rel="noopener noreferrer"><img className='projectImg' src={Room} alt='VR Game Project' /></a>
                 <div className='imgText'>
