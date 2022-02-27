@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Ivan_Portfolio/static/css/main.64d41318.css",
-    "main.js": "/Ivan_Portfolio/static/js/main.0fbf346d.js",
+    "main.css": "/Ivan_Portfolio/static/css/main.37e3a381.css",
+    "main.js": "/Ivan_Portfolio/static/js/main.cfdf17d9.js",
     "static/media/ProfilePic.jpg": "/Ivan_Portfolio/static/media/ProfilePic.3193ed903c08ef5edc2b.jpg",
     "static/media/github_icon.svg": "/Ivan_Portfolio/static/media/github_icon.902912ed40b15b155d8cfa247c4ba898.svg",
-    "index.html": "/Ivan_Portfolio/index.html",
     "static/media/Background.svg": "/Ivan_Portfolio/static/media/Background.215e220bbc40f363d51c.svg",
+    "index.html": "/Ivan_Portfolio/index.html",
     "static/media/linkedin_icon.svg": "/Ivan_Portfolio/static/media/linkedin_icon.cf40b8af9c2cd7d6d453b9ba1819a607.svg",
-    "main.64d41318.css.map": "/Ivan_Portfolio/static/css/main.64d41318.css.map",
-    "main.0fbf346d.js.map": "/Ivan_Portfolio/static/js/main.0fbf346d.js.map"
+    "main.37e3a381.css.map": "/Ivan_Portfolio/static/css/main.37e3a381.css.map",
+    "main.cfdf17d9.js.map": "/Ivan_Portfolio/static/js/main.cfdf17d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.64d41318.css",
-    "static/js/main.0fbf346d.js"
+    "static/css/main.37e3a381.css",
+    "static/js/main.cfdf17d9.js"
   ]
 }
