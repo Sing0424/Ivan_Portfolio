@@ -1,0 +1,43 @@
+.contact {
+  background-image: url("../../images/Background.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 40px;
+  height: 100%;
+}
+
+.contact .contactInner {
+  padding: 60px;
+  height: 100vh;
+  width: 100%;
+  color: #fffffbf5;
+}
+
+.contact .contactInner .contactTitle {
+  border-bottom: 2px solid #fffffbf5;
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+}
+
+.contact .contactInner p {
+  padding: 5px 0px;
+  font-size: 1.25rem;
+  line-height: 4rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

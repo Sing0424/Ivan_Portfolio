@@ -1,6 +1,9 @@
 .navBar {
   width: 100%;
   background-color: #0b1013;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .navBar nav {
@@ -36,6 +39,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+  nav {
+    display: block;
+  }
   nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

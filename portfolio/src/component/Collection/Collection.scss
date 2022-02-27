@@ -1,0 +1,59 @@
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../../images/Background.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content: center;
+  height: 100vh;
+
+  .projectBox {
+    width: fit-content;
+    height: fit-content;
+    transition: transform 0.5s;
+    position: relative;
+    margin: auto 20px;
+    .imgText {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 16px;
+      color: #f5f5f5e5;
+    }
+    .projectImg {
+      height: 150px;
+      object-fit: scale-down;
+      filter: brightness(40%);
+    }
+  }
+}
+
+.projectBox:hover {
+  transform: scale(1.1);
+  .projectImg {
+    filter: brightness(100%);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .collection {
+    padding-top: 250px;
+    .projectBox {
+      margin: 30px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .collection {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 313px) {
+  .collection {
+    width: fit-content;
+  }
+}

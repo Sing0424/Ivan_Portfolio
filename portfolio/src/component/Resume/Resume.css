@@ -1,9 +1,10 @@
 .resume {
-  height: 100%;
   background-image: url("../../images/Background.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding-top: 20px;
+  height: 100%;
 }
 
 .resume .resumeInner {
@@ -48,5 +49,11 @@
 .resume .resumeInner .skills h4 {
   padding-top: 1rem;
   font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .resume {
+    margin-top: 200px;
+  }
 }
 /*# sourceMappingURL=Resume.css.map */

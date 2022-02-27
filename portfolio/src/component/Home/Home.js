@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css';
 import ProfilePic from '../../images/ProfilePic.jpg';
 import Github from '../../images/github_icon.svg';

@@ -1,0 +1,82 @@
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url("../../images/Background.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.collection .projectBox {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  position: relative;
+  margin: auto 20px;
+}
+
+.collection .projectBox .imgText {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #f5f5f5e5;
+}
+
+.collection .projectBox .projectImg {
+  height: 150px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
+
+.projectBox:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.projectBox:hover .projectImg {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+@media screen and (max-width: 1300px) {
+  .collection {
+    padding-top: 250px;
+  }
+  .collection .projectBox {
+    margin: 30px 0px;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .collection {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 313px) {
+  .collection {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+/*# sourceMappingURL=Collection.css.map */

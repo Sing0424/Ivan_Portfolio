@@ -11,6 +11,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 50px;
 }
 
 .home section.left {
@@ -31,9 +32,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .home section.left .title .icon {
@@ -43,6 +41,7 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  margin-top: 20px;
 }
 
 .home section.left h1 {
@@ -52,7 +51,7 @@
 }
 
 .home section.left p {
-  font-size: 2.25rem;
+  font-size: 1.6rem;
   padding-bottom: 2rem;
   min-width: 300px;
   line-height: 4rem;
@@ -81,15 +80,18 @@
 }
 
 @media screen and (max-width: 1300px) {
-  section.left h1 {
+  .home {
+    margin-top: 200px;
+  }
+  .home section.left h1 {
     font-size: 2rem !important;
     line-height: 3rem !important;
   }
-  section.left p {
+  .home section.left p {
     font-size: 1.5rem !important;
     line-height: 2rem !important;
   }
-  section.right img {
+  .home section.right img {
     padding: 0rem 10rem;
   }
 }

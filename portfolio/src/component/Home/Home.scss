@@ -6,6 +6,7 @@
   background-attachment: fixed;
   background-size: cover;
   justify-content: space-between;
+  margin-top: 50px;
 
   section.left {
     flex: 2 1 700px;
@@ -16,10 +17,11 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      align-items: center;
+      // align-items: center;
       .icon {
         display: flex;
         height: fit-content;
+        margin-top: 20px;
       }
     }
     h1 {
@@ -28,7 +30,7 @@
       line-height: 4rem;
     }
     p {
-      font-size: 2.25rem;
+      font-size: 1.6rem;
       padding-bottom: 2rem;
       min-width: 300px;
       line-height: 4rem;
@@ -53,19 +55,22 @@
 }
 
 @media screen and (max-width: 1300px) {
-  section.left {
-    h1 {
-      font-size: 2rem !important;
-      line-height: 3rem !important;
+  .home {
+    margin-top: 200px;
+    section.left {
+      h1 {
+        font-size: 2rem !important;
+        line-height: 3rem !important;
+      }
+      p {
+        font-size: 1.5rem !important;
+        line-height: 2rem !important;
+      }
     }
-    p {
-      font-size: 1.5rem !important;
-      line-height: 2rem !important;
-    }
-  }
-  section.right {
-    img {
-      padding: 0rem 10rem;
+    section.right {
+      img {
+        padding: 0rem 10rem;
+      }
     }
   }
 }
