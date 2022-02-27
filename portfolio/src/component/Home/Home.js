@@ -15,8 +15,8 @@ export default function Home() {
                         Ivan Tung
                     </h1>
                     <div className='icon'>
-                    <a className='github' href='https://github.com/Sing0424'><img className='githubicon' src={Github} alt='github' /></a>
-                    <a className='linkedin' href='https://www.linkedin.com/in/tat-sing-tung-7400b9227/'><img className='linkedinicon' src={LinkedIn} alt='linkedin' /></a>
+                    <a className='github' href='https://github.com/Sing0424' target="_blank" rel="noopener noreferrer"><img className='githubicon' src={Github} alt='github' /></a>
+                    <a className='linkedin' href='https://www.linkedin.com/in/tat-sing-tung-7400b9227/' target="_blank" rel="noopener noreferrer"><img className='linkedinicon' src={LinkedIn} alt='linkedin' /></a>
                     </div>
                 </div>
                 <p>
