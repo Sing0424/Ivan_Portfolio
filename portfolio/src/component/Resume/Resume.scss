@@ -1,19 +1,40 @@
 .resume {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../../images/Background.svg");
-    .resumeInner{
-        padding: 4rem;
-        width: 100%;
-        color: #fffffbf5;
-        .resumeTitle {
-            border-bottom: 2px solid #fffffbf5;
-            width: 30rem;
-        }
-        p {
-            padding-top: 1rem;
-            font-size: 2rem;
-        }
-    }
+  height: 100%;
+  background-image: url("../../images/Background.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 
+  .resumeInner {
+    padding: 4rem;
+    width: 100%;
+    color: #fffffbf5;
+
+    .listDiv {
+      padding-left: 1rem;
+    }
+    .resumeTitle {
+      border-bottom: 2px solid #fffffbf5;
+      width: 60%;
+      font-size: 1.5rem;
+      padding: 1rem 0rem;
+    }
+    p {
+      padding: 5px 0px;
+      font-size: 1.25rem;
+      line-height: 2.75rem;
+    }
+    .skills {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .ProgrammingSkills {
+        padding-right: 10rem;
+      }
+      h4 {
+        padding-top: 1rem;
+        font-size: 1.25rem;
+      }
+    }
+  }
 }

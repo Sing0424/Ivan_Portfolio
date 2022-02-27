@@ -5,4 +5,10 @@
           box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
 }
+
+.app {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 /*# sourceMappingURL=App.css.map */

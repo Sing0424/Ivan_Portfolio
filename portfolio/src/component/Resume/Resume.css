@@ -1,7 +1,9 @@
 .resume {
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-image: url("../../images/Background.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .resume .resumeInner {
@@ -10,13 +12,41 @@
   color: #fffffbf5;
 }
 
+.resume .resumeInner .listDiv {
+  padding-left: 1rem;
+}
+
 .resume .resumeInner .resumeTitle {
   border-bottom: 2px solid #fffffbf5;
-  width: 30rem;
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
 }
 
 .resume .resumeInner p {
+  padding: 5px 0px;
+  font-size: 1.25rem;
+  line-height: 2.75rem;
+}
+
+.resume .resumeInner .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.resume .resumeInner .skills .ProgrammingSkills {
+  padding-right: 10rem;
+}
+
+.resume .resumeInner .skills h4 {
   padding-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 /*# sourceMappingURL=Resume.css.map */
